@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.EntityLayer", "Foody.EntityLayer\Foody.EntityLayer.csproj", "{75DCC754-1190-4A15-B700-8D2299A21446}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.EntityLayer", "Foody.EntityLayer\Foody.EntityLayer.csproj", "{75DCC754-1190-4A15-B700-8D2299A21446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.DataAccessLayer", "Foody.DataAccessLayer\Foody.DataAccessLayer.csproj", "{DFC37341-8D2B-4055-B027-D0A9AC641DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.BusinessLayer", "Foody.BusinessLayer\Foody.BusinessLayer.csproj", "{A5F82317-20DE-4C68-9580-81A0745B0B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{C1B34D0D-22FB-48FE-9386-19339379FCD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{75DCC754-1190-4A15-B700-8D2299A21446}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75DCC754-1190-4A15-B700-8D2299A21446}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75DCC754-1190-4A15-B700-8D2299A21446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFC37341-8D2B-4055-B027-D0A9AC641DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFC37341-8D2B-4055-B027-D0A9AC641DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFC37341-8D2B-4055-B027-D0A9AC641DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFC37341-8D2B-4055-B027-D0A9AC641DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F82317-20DE-4C68-9580-81A0745B0B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F82317-20DE-4C68-9580-81A0745B0B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F82317-20DE-4C68-9580-81A0745B0B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F82317-20DE-4C68-9580-81A0745B0B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B34D0D-22FB-48FE-9386-19339379FCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B34D0D-22FB-48FE-9386-19339379FCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B34D0D-22FB-48FE-9386-19339379FCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B34D0D-22FB-48FE-9386-19339379FCD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
