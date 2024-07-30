@@ -1,4 +1,4 @@
-﻿using Foody.EntitiyLayer.Concrete;
+﻿using Foody.EntityLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.Concrete
 {
-	public class FoodyContext : DbContext
+    public class FoodyContext : DbContext
 	{
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{

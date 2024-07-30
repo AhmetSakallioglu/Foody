@@ -1,4 +1,4 @@
-﻿using Foody.EntitiyLayer.Concrete;
+﻿using Foody.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.Abstract
 {
-	public interface ISocialMediaDal : IGenericDal<SocialMedia>
+    public interface ISocialMediaDal : IGenericDal<SocialMedia>
 	{
 	}
 }

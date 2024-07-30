@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Foody.EntitiyLayer.Concrete
+namespace Foody.EntityLayer.Concrete
 {
-	public class Category
-	{
+    public class Category
+    {
         public int CategoryId { get; set; }
-		public string CategoryName { get; set; }
-		public bool CategoryStatus { get; set; }
+        public string CategoryName { get; set; }
+        public bool CategoryStatus { get; set; }
     }
 }

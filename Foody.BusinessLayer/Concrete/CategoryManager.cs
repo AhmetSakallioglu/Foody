@@ -1,6 +1,6 @@
 ﻿using Foody.BusinessLayer.Abstract;
 using Foody.DataAccessLayer.Abstract;
-using Foody.EntitiyLayer.Concrete;
+using Foody.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Foody.BusinessLayer.Concrete
 {
-	public class CategoryManager : ICategoryService
+    public class CategoryManager : ICategoryService
 	{
 		private readonly ICategoryDal _categoryDal;
 

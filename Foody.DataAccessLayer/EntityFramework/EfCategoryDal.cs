@@ -1,7 +1,7 @@
 ﻿using Foody.DataAccessLayer.Abstract;
 using Foody.DataAccessLayer.Concrete;
 using Foody.DataAccessLayer.Repositories;
-using Foody.EntitiyLayer.Concrete;
+using Foody.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Foody.DataAccessLayer.EntityFramework
 {
-	public class EfCategoryDal : GenericRepository<Category>, ICategoryDal
+    public class EfCategoryDal : GenericRepository<Category>, ICategoryDal
 	{
 		public EfCategoryDal(FoodyContext context) : base(context)
 		{
